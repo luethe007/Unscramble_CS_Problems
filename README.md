@@ -1,4 +1,4 @@
-# Unscramble_CS_Problems
+# Unscramble CS Problems
 
 In this project, I deconstruct a series of open-ended problems into smaller components (e.g. inputs, outputs, series of functions).  
 
