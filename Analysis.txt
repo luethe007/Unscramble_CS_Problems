@@ -1,0 +1,36 @@
+Task 0
+Prints out the information of first record of texts and last record of calls.
+
+Time Complexity: Worst-case time complexity is O(1)
+The time complexity for this program is O(1) because we are accessing the first and last values from the lists (calls and texts) by an index.
+
+Task 1
+Prints number of distinct telephone numbers in the dataset.
+
+Time Complexity: Worst-case time complexity is O(1)
+The time complexity for this program is O(1) because we first transpose the calls and texts datasets using built-in functions.
+Then, we use sets to calculate the count of phone numbers.
+
+Task 2
+Prints the phone number that spent the longest time on the phone and the total time in seconds they spend on phone call.
+
+Time Complexity: Worst-case time complexity is O(n)
+The time complexity for this program is O(n) as we iterate over all calls to sum up the durations by phone number.
+The rest of the code is executed once and negligible.
+
+Task 3
+Prints the phone codes called by fixed-line numbers in Bangalore and the percentage of calls from fixed lines in Bangalore that are to fixed lines in Bangalore.
+
+Time Complexity: 
+The time complexity for get_area_codes in Task3.py is O(n) because we loop through all the calls in the datasets.
+Afterwards, we need to print all the codes to the terminal and this implies looping again through the codes. 
+However, this does not have an impact on the time complexity as there is a finite number of area codes in a country (or even the world).
+
+The time complexity for get_bangalore_ratio in Task3.py is O(n) because we loop through the calls. The rest of the code is executed once.
+
+Task 4
+Prints the list of numbers that could be telemarketers.
+
+Time Complexity: Worst-case time complexity is O(n)
+The time complexity for get_telemarketers is O(n). The first lines of code transpose the lists and uses set theory (O(1)).
+However, printing all telemarketers requires a loop and in the worst case, each new call could be done by a new telemarketer.
