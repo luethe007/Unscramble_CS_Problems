@@ -13,7 +13,7 @@ with open('data/calls.csv', 'r') as f:
     reader = csv.reader(f)
     calls = list(reader)
 
-def get_most_active_number(calls):
+def get_most_active_number(calls: list):
     # Computes the summed duration per phone number and prints to terminal
     
     phone_stats = defaultdict(lambda: 0)
