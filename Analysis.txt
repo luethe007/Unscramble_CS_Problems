@@ -22,15 +22,11 @@ Task 3
 Prints the phone codes called by fixed-line numbers in Bangalore and the percentage of calls from fixed lines in Bangalore that are to fixed lines in Bangalore.
 
 Time Complexity: 
-The time complexity for get_area_codes in Task3.py is O(n) because we loop through all the calls in the datasets.
-Afterwards, we need to print all the codes to the terminal and this implies looping again through the codes. 
-However, this does not have an impact on the time complexity as there is a finite number of area codes in a country (or even the world).
-
+The time complexity for get_area_codes in Task3.py is O(nlogn) because we use the sorted() function.
 The time complexity for get_bangalore_ratio in Task3.py is O(n) because we loop through the calls. The rest of the code is executed once.
 
 Task 4
 Prints the list of numbers that could be telemarketers.
 
-Time Complexity: Worst-case time complexity is O(n)
-The time complexity for get_telemarketers is O(n). The first lines of code transpose the lists and uses set theory (O(1)).
-However, printing all telemarketers requires a loop and in the worst case, each new call could be done by a new telemarketer.
+Time Complexity: Worst-case time complexity is O(nlogn)
+The time complexity for get_telemarketers is O(nlogn) because we use the sorted() function.
