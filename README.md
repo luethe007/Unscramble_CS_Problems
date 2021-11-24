@@ -13,6 +13,12 @@ The text data (text.csv) has the following columns: sending telephone number (st
 The call data (call.csv) has the following columns: calling telephone number (string), receiving telephone number (string), start timestamp of telephone call (string), duration of telephone call in seconds (string).
 
 ## Efficiency
+In this section, I analyze the time-complexity of the provided Python code.
+
+### Complexity Chart
+
+<img src="data/big_o_cheat_sheet.png">
+
 ### Task 0
 Prints out the information of first record of texts and last record of calls.
 
@@ -43,4 +49,4 @@ Prints the phone codes called by fixed-line numbers in Bangalore and the percent
 Prints the list of numbers that could be telemarketers.
 
 **Time Complexity**  
-- get_telemarketers :<img src="https://render.githubusercontent.com/render/math?math=O(1)"> (not considering the for-loop for the print statement)
+- get_telemarketers : <img src="https://render.githubusercontent.com/render/math?math=O(1)"> (not considering the for-loop for the print statement)
