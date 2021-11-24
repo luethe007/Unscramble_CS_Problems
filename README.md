@@ -18,3 +18,5 @@ In the *Analysis.txt* file, I analyze the time-complexity of the provided Python
 ### Complexity Chart
 
 <img src="data/big_o_cheat_sheet.png">
+
+Source: https://www.bigocheatsheet.com/
