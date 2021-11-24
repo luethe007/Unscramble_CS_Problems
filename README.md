@@ -17,8 +17,10 @@ The call data (call.csv) has the following columns: calling telephone number (st
 Prints out the information of first record of texts and last record of calls.
 
 **Time Complexity**  
-- get_first_text: $$O(1)$$
+- get_first_text: $O(1)$
 - get_first_call: $$O(1)$$
+
+<img src="https://render.githubusercontent.com/render/math?math=O(1)">
 
 ### Task 1
 Prints number of distinct telephone numbers in the dataset.
